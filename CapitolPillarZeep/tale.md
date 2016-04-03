@@ -80,3 +80,14 @@ Here is the Columbus sculpture that the other photos were taking in front of, fa
 So that's the first part of the tale, the thing got designed, 3d printed, painted, placed, and documented.  What now? Distribute it.  
 
 to do that I need a random price, which I will generate using an i python notebook.  
+
+The python code for that is:
+
+	%matplotlib inline
+	from pylab import *
+	
+	round(100*rand(),2)
+
+I ran this code a few times until I got a price that was over 10 and under 50, settled on $19.10.   This is how I will generate prices for future artifacts, I think.  
+
+Now I need to put this artifact up on Etsy.com for sale and this part of the tale is done until someone else wants it.  
